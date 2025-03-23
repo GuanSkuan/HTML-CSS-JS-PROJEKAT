@@ -1,2 +1,2 @@
 # HTML-CSS-JS-PROJEKAT
-kapa sajt
+sajt galerije kapa po imenu "hat gallery"
