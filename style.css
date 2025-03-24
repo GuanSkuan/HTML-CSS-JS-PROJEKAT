@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box; /*skontaj sta je ovo*/
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigacija {
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    display: flex;
+}
+
+.navigacija ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 0;
+    list-style: none;
+}
+
+.navigacija li {
+    width: 20%;
+}
+
+.navigacija a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    height: 100%;
+}
+
+.navigacija a:hover {
+    background-color: #8d8b8b;
+}
