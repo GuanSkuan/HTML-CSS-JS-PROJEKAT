@@ -7,6 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*NAVIGACIJA*/
+
 .navigacija {
     background-color: rgb(241, 241, 241);
     justify-content: center;
@@ -41,5 +43,29 @@ body {
 }
 
 .navigacija a:hover {
-    background-color: #8d8b8b;
+    background-color: #dcdcdc;
+}
+
+/*UVODNA SLIKA*/
+
+.uvodna {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/uvodna2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*UVODNI TEKST*/
+
+.tekst-uvod {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    font-size: large;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.8;
+    color: gray;
 }
