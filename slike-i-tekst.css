@@ -1,0 +1,36 @@
+
+/*O NAMA TEKST I SLIKE*/
+#naslov {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.o-nama {
+    display: flex;
+    flex-direction: column;
+}
+
+.slika-tekst, .tekst-slika {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.slika-tekst img, .tekst-slika img {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.slika-tekst .standard, .tekst-slika .standard {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
