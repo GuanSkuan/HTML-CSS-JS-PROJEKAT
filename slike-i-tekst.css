@@ -35,4 +35,14 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+}
+
+/*podnaslov podesavanje*/
+
+.standard h2 {
+    position: absolute;
+    font-weight: bold;
+    top: 15%;
+    text-decoration: underline dotted;
 }
