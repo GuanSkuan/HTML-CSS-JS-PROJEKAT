@@ -28,5 +28,5 @@
 .mapa iframe {
     justify-self: end;
     margin: 7%;
-    border: dotted gray;
+    border: dashed 1px gray;
 }

@@ -41,12 +41,16 @@
 
 .footer {
     display: flex;
+    position: relative;
     background-color: rgb(43, 43, 43);
     height: 35vh;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
     line-height: 2.2;
-    align-items: center; /*ovo vidi da li ce ti uopste trebati*/
+}
+
+.footer .footer-bez-linka {
+    color: rgb(227, 227, 227);
+
 }
 
 .footer a{
@@ -58,8 +62,16 @@
 
 .footer ul {
     list-style: none;
+    width: 20%;
 }
 
 .footer a:hover {
     color: rgb(223, 170, 101);
+}
+
+.footer p {
+    position: absolute;
+    color: rgb(154, 154, 154);
+    right: 40px;
+    bottom: 0%;
 }
