@@ -1,0 +1,34 @@
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.kartica {
+    display: flex;
+    flex-direction: column;         /*kratica ide u koloni, slika pa ispod tekst, a ne tekst pored slike*/
+    width: 25%;
+    height: 60vh;
+    margin: 3%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kartica:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.kartica p {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    justify-content: center;
+}
+
+.kartica img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;            /*sredi oblik slike da se ne razvuce*/
+    background-color: white;
+}
