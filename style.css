@@ -35,21 +35,28 @@ body {
 
 /*DUGME*/
 
-#dugme {
-    margin: 20px;
+.dugme {
+    margin-bottom: 40px;
+    border: 2px solid rgb(165, 165, 165);
     border-radius: 6px;
+    color: rgb(165, 165, 165);
+    /*background-color: rgb(165, 165, 165);*/
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.dugme a {
+    display: block;
+    height: 100%;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
-    background-color: rgb(165, 165, 165);
-    transition: background-color 0.3s;
-}
-
-#dugme:hover {
-    background-color: rgb(249, 191, 116);
-}
-
-#dugme a {
     text-decoration: none;
     color: inherit;
+}
+
+.dugme:hover {
+    background-color: rgb(249, 191, 116);
+    border:2px solid rgb(249, 191, 116);
+    color: white;
 }

@@ -1,19 +1,71 @@
 
-/*UVODNA SLIKA*/
+/*UVODNA SLIKA SA TEKSTOM*/
 
 .uvodna {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/uvodna.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.uvodna p {
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    font-size: 12rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*DRUGA UVODNA SLIKA SA BLAGIM PROMENAMA*/
+
+.uvodna2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     background-image: url('images/uvodna2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.uvodna2 p {
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    font-size: 12rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.uvodna2 .dugme {
+    position: absolute;
+    bottom: 3%;
+    margin: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.uvodna2 .dugme:hover {
+    background-color: rgb(249, 191, 116);
+    border: 2px solid rgb(249, 191, 116);
 }
 
 /*TEKST SA UVODNE STRANE*/
 
 #uvodni {
-    margin: 0;
+    margin-top: 30px;
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
