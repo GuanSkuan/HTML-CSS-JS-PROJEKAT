@@ -18,7 +18,7 @@
     color: white;
     position: absolute;
     bottom: 7%;
-    font-size: 12rem;
+    font-size: 12vw;
     margin: 0;
     font-weight: bold;
 }
@@ -41,8 +41,8 @@
     display: flex;
     color: white;
     position: absolute;
-    bottom: 7%;
-    font-size: 12rem;
+    bottom: 9%;
+    font-size: 12vw;
     margin: 0;
     font-weight: bold;
 }
