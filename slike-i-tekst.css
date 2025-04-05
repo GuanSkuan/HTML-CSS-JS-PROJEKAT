@@ -171,3 +171,31 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+/*TEST*/
+
+@media (max-width: 1024px) {
+    .kontakt1,
+    .kontakt2 {
+        grid-template-columns: 1fr; /* jedna kolona ispod druge */
+    }
+
+    .ukras1,
+    .ukras2 {
+        justify-content: center;
+    }
+
+    .ukras1 img,
+    .ukras2 img {
+        width: 80vw;
+        height: auto;
+        max-height: 60vh;
+        object-fit: contain;
+    }
+
+    .kontakt1 p,
+    .kontakt2 .standard {
+        padding: 20px;
+        text-align: center; /* opcionalno - izgleda bolje na mobilnim */
+    }
+}
