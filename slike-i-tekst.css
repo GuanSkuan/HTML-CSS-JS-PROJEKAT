@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-/*DRUGA UVODNA SLIKA SA BLAGIM PROMENAMA*/
+/*DRUGA UVODNA SLIKA SA BLAGIM PROMENAMA U ODNOSU NA PRVU*/
 
 .uvodna2 {
     width: 100vw;
@@ -122,4 +122,52 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
+}
+
+/*TEKST I SLIKE SA KONTAKT STRANE*/
+
+.kontakt1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.ukras1 {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100%;   
+}
+
+.ukras1 img {
+    height: 80vh;
+    width: 40vw;
+    object-fit: cover;
+}
+
+
+.kontakt1 p {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.kontakt2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.ukras2 {
+    display: flex;
+    align-items: center;  
+}
+
+.ukras2 img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.kontakt2 .standard {
+    padding-left: 5%;
+    padding-right: 5%;
 }
