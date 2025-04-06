@@ -57,8 +57,43 @@
                 Možete nas pratiti na Facebook-u i Instagram-u, gde redovno objavljujemo novosti i nove modele u ponudi.
             </p>
         </div>
-
     </div>
+
+    <h2 class="podnaslovi">KONTAKTIRAJTE NAS DIREKTNO PUTEM SAJTA</h2>
+
+    <form class="forma standard">
+        <label for="ime">Ime:</label><br>
+        <input type="text" id="ime" name="ime" required><br>
+      
+        <label for="prezime">Prezime:</label><br>
+        <input type="text" id="prezime" name="prezime" required><br>
+      
+        <label for="Pol">Pol:</label><br>
+        <input type="radio" id="musko" name="pol" value="muško" required>
+        <label for="musko">Muško</label>
+        <input type="radio" id="zensko" name="pol" value="žensko">
+        <label for="zensko">Žensko</label><br>
+      
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br>
+      
+        <label for="tema">Tema poruke:</label><br>
+        <select id="tema" name="tema">
+          <option value="pohvala">Pohvala</option>
+          <option value="kritika">Kritika</option>
+          <option value="pitanje">Pitanje</option>
+          <option value="ostalo">Ostalo</option>
+        </select><br>
+      
+        <label for="poruka">Poruka:</label><br>
+        <textarea id="poruka" name="poruka" rows="15" cols="65" required></textarea><br>
+      
+        <input type="checkbox" id="uslovi" name="uslovi" required>
+        <label for="uslovi">Slažem se sa uslovima korišćenja</label><br>
+      
+        <button type="submit" class="dugme">Pošalji</button>
+      </form>
+
     <div id="footer"></div>
     <script src="script.js"></script>
 </body>

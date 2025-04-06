@@ -4,7 +4,7 @@
     background-color: rgb(241, 241, 241);
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 40px;
     display: flex;
 }
 
@@ -20,7 +20,7 @@
 
 .navigacija li {
     width: 20%;
-    position: relative; /* DODATOOOOOOOOOOOOOOOOOOOO zbog padajuceg menija */
+    position: relative;  /*DODATOOOOOOOOOOOOOOOOOOOO zbog padajuceg menija */
 }
 
 .navigacija a {
@@ -30,7 +30,7 @@
     align-items: center;
     color: black;
     transition: background-color 0.3s;
-    font-size: 18px;
+    font-size: 23px;
     height: 100%;
 }
 
@@ -38,23 +38,22 @@
     background-color: #dcdcdc;
 }
 
-/* Hide the dropdown by default */
+/*PADAJUCI*/
+
 .navigacija .opcije {
     display: none;
     position: absolute;
-    top: 100%; /* Positions it below the parent */
     z-index: 10;
 }
 
-/* Show the dropdown when hovering over the parent */
 .navigacija .padajuci:hover .opcije {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .padajuci a {
-    height: 30px;
+    height: 40px;
 }
 
 .padajuci li {
@@ -75,12 +74,12 @@
 
 .footer .footer-bez-linka {
     color: rgb(227, 227, 227);
-
+    font-size: 20px;
 }
 
 .footer a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(227, 227, 227);
     transition: color 0.3s;
 }

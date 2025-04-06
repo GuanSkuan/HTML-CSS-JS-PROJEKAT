@@ -11,7 +11,7 @@ body {
 
 .standard {
     background-color: rgb(241, 241, 241);
-    font-size: large;
+    font-size: 21px;
     line-height: 1.8;
     color: gray;
     margin: 0;
@@ -40,7 +40,6 @@ body {
     border: 2px solid rgb(165, 165, 165);
     border-radius: 6px;
     color: rgb(165, 165, 165);
-    /*background-color: rgb(165, 165, 165);*/
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }

@@ -144,3 +144,42 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+/*FORMA*/
+
+.forma {
+    text-align: center;
+    border: none;
+}
+
+.forma button {
+    font-size: 23px;
+    color: gray;
+    border: 2px solid gray;
+}
+
+.forma, input, select, textarea {
+    border-radius: 12px;
+    border: transparent;
+    font-size: 21px;
+    vertical-align: top;
+
+}
+
+input, select {
+    height: 30px;
+    font-size: 21px;
+
+}
+
+select {
+    width: 100px;
+    font-size: 21px;
+    color: gray;
+    transition: 0.3s;
+}
+
+select:hover {
+    background-color: darkgray;
+    color: white;
+}
