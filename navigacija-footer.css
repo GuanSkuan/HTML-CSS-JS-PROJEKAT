@@ -20,6 +20,7 @@
 
 .navigacija li {
     width: 20%;
+    position: relative; /* DODATOOOOOOOOOOOOOOOOOOOO zbog padajuceg menija */
 }
 
 .navigacija a {
@@ -35,6 +36,30 @@
 
 .navigacija a:hover {
     background-color: #dcdcdc;
+}
+
+/* Hide the dropdown by default */
+.navigacija .opcije {
+    display: none;
+    position: absolute;
+    top: 100%; /* Positions it below the parent */
+    z-index: 10;
+}
+
+/* Show the dropdown when hovering over the parent */
+.navigacija .padajuci:hover .opcije {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padajuci a {
+    height: 30px;
+}
+
+.padajuci li {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
 }
 
 /*FOOTER*/

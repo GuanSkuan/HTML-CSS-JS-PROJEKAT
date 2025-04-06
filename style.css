@@ -60,3 +60,9 @@ body {
     border:2px solid rgb(249, 191, 116);
     color: white;
 }
+
+/*smooth slanje na stisak dugmeta*/
+
+html {
+    scroll-behavior: smooth;
+}
