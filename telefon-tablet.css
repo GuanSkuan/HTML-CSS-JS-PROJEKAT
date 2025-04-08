@@ -1,0 +1,150 @@
+@media (max-width: 1024px) {
+
+    /*POCETNA STRANICA*/
+
+    .uvodna {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #uvodni {
+        margin-top: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .kartica {
+        width: 90%;
+        height: auto;
+    }
+
+    .dugme.telefon {
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+    .uvodna2 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .uvodna2 p {
+        padding-bottom: 30px;
+    }
+
+    /*FOOTER*/
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer ul {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*O NAMA*/
+
+    .slika-tekst, .tekst-slika {
+        flex-direction: column;
+    }
+
+    .slika-tekst img, .tekst-slika img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slika-tekst .standard, .tekst-slika .standard {
+        width: 100%;
+    }
+
+    .slika-tekst {
+        flex-flow:column-reverse;
+    }
+
+    /*LOKACIJA*/
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mapa iframe {
+        width: 86%;
+        height: 90vw;
+        align-self: center;
+        margin: 7%;
+    }
+
+    /*KONTAKT*/
+
+    .kontakt {
+        grid-template-columns: 1fr;
+    }
+
+    .kontakt.telefon {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    #poruka {
+        width: 90%;
+    }
+
+    .podnaslovi.telefon {
+        text-align: center;
+    }
+
+    /*BURGER MENI*/
+
+    .burger {
+        display: block;
+    }
+
+    .burger.active  .crta:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.active  .crta:nth-child(2) {
+        opacity: 0;
+    }
+    .burger.active  .crta:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navigacija ul {
+        flex-direction: column;
+        background-color: rgb(241, 241, 241);
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        display: none; /* hidden by default */
+    }
+
+    .navigacija ul.open {
+        display: flex;
+        margin: 0;
+        z-index: 1000;
+        height: auto;
+    }
+
+    .navigacija ul.open .padajuci a {
+        height: 30px;
+    }
+
+    .navigacija li {
+        width: 100%;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .navigacija .opcije {
+        display: none;
+        flex-direction: column;
+    }
+    
+    .navigacija .opcije.open {
+        display: flex;
+        align-items: center;
+    }
+}

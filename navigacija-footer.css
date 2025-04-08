@@ -61,6 +61,22 @@
     width: 100%;
 }
 
+/*BURGER MENI*/
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.crta {
+    display: block;
+    background-color: dimgray;
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
 /*FOOTER*/
 
 .footer {

@@ -4,6 +4,24 @@ fetch("navigacija.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("navigacija").innerHTML = data;
+
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navigacija ul');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+
+        const lokacijaLink = document.querySelector('.padajuci > a');
+        const podmeni = document.querySelector('.padajuci .opcije');
+
+        lokacijaLink.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            podmeni.classList.toggle('open');
+        });
+
     })
     .catch(error => console.error("Greska: ucitavanje navigacionog bara", error));
 
