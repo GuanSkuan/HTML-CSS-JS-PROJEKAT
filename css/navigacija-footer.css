@@ -83,19 +83,19 @@
     display: flex;
     position: relative;
     background-color: rgb(43, 43, 43);
-    height: 35vh;
+    height: auto;
     padding-left: 3%;
     line-height: 2.2;
 }
 
 .footer .footer-bez-linka {
     color: rgb(227, 227, 227);
-    font-size: 20px;
+    font-size: 0.8rem;
 }
 
 .footer a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: rgb(227, 227, 227);
     transition: color 0.3s;
 }
