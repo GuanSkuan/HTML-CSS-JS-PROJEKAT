@@ -7,7 +7,7 @@
 
 .kartica {
     display: flex;
-    flex-direction: column;         /*kratica ide u koloni, slika pa ispod tekst, a ne tekst pored slike*/
+    flex-direction: column;
     width: 25%;
     height: 60vh;
     margin: 3%;
@@ -29,6 +29,6 @@
 .kartica img {
     width: 100%;
     height: 100%;
-    object-fit: contain;            /*sredi oblik slike da se ne razvuce*/
+    object-fit: contain;
     background-color: white;
 }
