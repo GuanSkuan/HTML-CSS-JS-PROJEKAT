@@ -58,7 +58,6 @@ document.querySelector(".forma").addEventListener("submit", function(event) {
         "Slažem se sa uslovima: " + uslovi
     );
 
-    // Resetovanje forme
     this.reset();
 
     setTimeout(() => {
